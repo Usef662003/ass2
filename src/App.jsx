@@ -1,12 +1,12 @@
 import Home from './home/Home';
 // import Navbar from './navbar/Navbar';
 // import Footer from './footer/Footer';
-import About from './about/About';
 import Portfolio from './PROTFOLIO/PROTFOLIO'; // Renamed to avoid all caps
 import Contact from './CONTACT/CONTACT'; // Renamed to avoid all caps
 import Layout from './leyOut/leyOut'; // Renamed to follow consistent casing
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import NotFound from './notFound/NotFound';
+import About from './About/About';
 
 export default function App() {
   const router = createBrowserRouter([
